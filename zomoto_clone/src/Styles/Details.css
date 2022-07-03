@@ -1,0 +1,408 @@
+
+.tabs {
+
+    position: relative; 
+    min-height: 200px; 
+    margin: 50px 0 25px;
+    
+    clear: both;
+    
+    background: white;
+}
+.Topimg{
+   width: 80%;
+  height: 352px;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+    
+.tab
+{ float: left;
+     
+    }
+    
+    .tab label {
+    
+    background: white;
+    padding: 2px 15px 2px 15px;
+    
+    
+    border: 1px solid white;
+     margin-left: -1px; 
+     position: relative;
+      left: 146px;
+    
+    top: -30px;
+    
+    
+    }
+    .tab [type=radio]{
+        display: none;
+    }
+    .value {
+
+            height: 30px;
+            
+            font-family: Poppins;
+            
+            font-size: 16px;
+            
+            font-weight: normal;
+            
+            font-stretch: normal;
+            
+            font-style: normal;
+            
+            line-height: 1.88;
+            
+            letter-spacing: normal; 
+            text-align: left;
+            
+            color: #192f60;;
+    }
+    img.card-img-center.title-img{
+        transition: transform .5s;
+    }
+    img.card-img-center.title-img:hover{
+        transform: scale(1.4); 
+    }
+    .headings {
+
+        width: 300px;
+    height: 42px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    left: 151px;
+    position: relative;
+    }
+button.btn.btn-primary{
+    float: right;
+    margin-right: 48px;
+}
+.head{
+height: 25px;
+
+font-family: Poppins;
+
+font-size: 18px; 
+font-weight: 600;
+
+font-stretch: normal;
+
+font-style: normal; 
+line-height: 1.5;
+
+letter-spacing: normal;
+
+text-align: left; 
+color: #192f60;
+
+}
+[type=radio]:checked~label{
+background-color: white;
+border-bottom: 1px solid white;
+
+border-bottom: solid 4px red;
+}
+
+[type=radio]:checked~label~.content {
+
+    z-index: 0;
+    
+    opacity: 1;
+    
+    }
+    .content {
+
+        position: absolute;
+        top: -1px;
+        left: 211px;
+        background: white;
+        right: 0;
+        bottom: 0;
+        margin: -1.5px 120.5px 0 -47.5px;
+        padding-top: 40px;
+        border-top: 1px solid gray;
+        opacity: 0;
+        
+        
+        
+        }
+    
+    .button {
+    
+    position: absolute;
+    
+    left: 75%;
+    
+    top: 66%;
+    
+    width: 200px;
+    
+    height: 35px; 
+    opacity: 0.9;
+    
+    border-radius: 3px;
+    
+    background-color:white;
+    border: none;
+    color: #192f60;
+    font-weight: bold;
+    
+    }
+    
+.btn-order {
+
+    float: right;
+    
+    height: 35px;
+    border-radius: 6px;
+    background-color: #ce0505;
+    font-family: Poppins;
+    font-size: 15px;
+   
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    margin-right: 120px;
+    color: #ffffff;
+    padding-left: 17px;
+    padding-right: 15px;
+    border: none;
+}
+.about{
+    height: 25px;
+
+    font-family: Poppins;
+    
+    font-size: 18px; 
+    font-weight: 600;
+    
+    font-stretch: normal;
+    
+    font-style: normal; 
+    line-height: 1.5;
+    
+    letter-spacing: normal;
+    padding-bottom: 50px;
+    text-align: left; 
+    color: #192f60;
+}
+
+div.ReactModal__Content.ReactModal__Content--after-open{
+    width: 557px;
+    height: 574px;
+
+}
+.boxheading{
+    width: 90%;
+    height: 43px;
+    margin: -12.5px 156px 40px 30px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+   
+}
+    .boxImage{
+        width: 92px;
+        height: 92px;
+        margin: 10px 5px 27.6px 388px;
+        border-radius: 4px;
+        background-color: #192f60;
+    }
+    .boxmenuname{
+        width: 200px;
+  height: 25px;
+  margin: -121px 298px 5px 27px;
+  font-family: Poppins;
+  font-size: 18px;
+  
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+    font-weight: 600;
+    }
+    
+.boxpara{
+    width: 329px;
+  height: 38px;
+  margin: -9px 125px 28.6px 29px;
+  font-family: RupeeForadian;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: left;
+  color: #696b78;
+  
+  font-family: Poppins;
+}
+    
+button.boxbtn{
+    margin-left: 27px;
+    color: green;
+    width: 58px;
+    border: none;
+    background-color: white;
+    
+
+}
+
+button.btn-close{
+    position: relative;
+    left: 93%;
+}
+.boxitemprice{
+    margin-left: 28px;
+    color: #192f60;
+    font-weight: 600;
+}
+.boxend{
+    color: #192f60;
+    font-weight: 600;
+    float: inline-end;
+    font-size: 20px;
+}
+.boxSubtotal{
+   padding-right: 20px;
+  
+}
+button.btn.btn-danger{
+    position: relative;
+    left: 371px;
+    width: 125px;
+    padding: 10px;
+    top: -73px;
+    margin: -36px;}
+hr.boxline{
+    margin-top: -24px;
+}
+
+button.navigate.btn.btn-success{
+    position: sticky;
+    left: 83%;
+    border-radius:20px;
+    box-shadow: 1px 5px rgb(27, 28, 44);
+    font-weight:bold;
+    color:white;
+    background-color:#ce0505;
+    border: 1px white;
+ 
+}
+
+button.navigate.btn.btn-success:hover {background-color: #209b4f;color: #000000;font-weight: bold;box-shadow: 6px 3px rgb(27 28 44);
+
+}
+
+
+@media screen and (max-width:998px) and (max-width:900px) and (min-width: 360px)  {
+
+    .button {
+    
+    position: absolute;
+    
+    left: 55%;
+    
+    top: 92%;
+    
+    width: 200px;
+    
+    height: 35px;
+    
+    
+    
+    border-radius: 3px;
+    
+    background-color: #ffffff;
+    border: none;
+    
+    }
+    .Topimg {
+        width: 100%;
+        height: 259px;
+        margin-left: 0px;
+    
+        margin-top: 17px;
+        margin-bottom: 50px;
+    }
+    .headings {
+        top:-32px
+    }
+
+    button.navigate.btn.btn-success {
+        position: sticky;
+        
+        border-radius: 20px;
+        box-shadow: 1px 5px rgb(27 28 44);
+        font-weight: bold;
+        color: white;
+        background-color: #ce0505;
+        border: 1px white;
+      
+    left: 72%;
+    }
+    .tab label {
+        background: white;
+        padding: 2px 15px 2px 15px;
+        border: 1px solid white;
+        margin-left: -1px;
+        position: relative;
+        left: 19px;
+        top: -30px;
+    }
+    .content {
+        
+        top: -1px;
+        left: 70px;
+      
+    }
+    .btn-order {
+        float: right;
+        height: 30px;
+        border-radius: 6px;
+        background-color: #ce0505;
+        font-family: Poppins;
+        font-size: 10px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        margin-right: 120px;
+        color: #ffffff;
+        padding-left: 17px;
+        padding-right: 15px;
+        border: none;
+        position: absolute;
+        right: -85px;
+    }
+    button.btn.btn-primary {
+     
+        position: sticky;
+        right: 167px;
+    }
+    .btn {
+        font-size: 10px;
+    }
+}

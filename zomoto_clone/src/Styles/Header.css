@@ -1,0 +1,224 @@
+.app-header{
+
+    background-color: #ce0505;
+    height: 95px;
+}
+a.af {
+
+    display: inline-block;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: #ce0505;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 28px;
+    position: relative;
+    left: 98px;
+    border-radius: 24px;
+    padding-top: 3px;
+    padding-left: 3px;
+    margin-top: 3px;
+    top: 20px;
+    
+    
+}
+
+
+a.allmlogin {
+    right: 253px;
+    position: relative;
+    color: white;
+    cursor: pointer;
+    top: -16px;
+    float: right;
+
+}
+
+.maccount {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    word-spacing: normal;
+    border-radius: 5px;
+    float: right;
+    right:3em;
+    position: relative;
+    top:-26px;
+    cursor: pointer;
+   
+}
+.maccount:hover{
+    color: white;
+}
+.maccountname{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 62em;
+    top: 20px;
+    font-weight: bold;
+
+    
+}
+.maccountname:hover{
+    color: white;
+}
+.mlogout{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+span.datetime{
+    color: black;
+    font-weight: 600;
+    position: relative;
+    right: -39%;
+    top: 60%;
+}
+button.kep-login-facebook.metro{
+    
+    margin-top: 38px;
+    font-variant-caps: all-small-caps;
+    font-family: Roboto, sans-serif !important;
+    padding: 6px;
+    font-size: 18px;
+    position: relative;
+    top: 25px;
+    left: 28px;
+}
+button.btn.btn-danger.PROCEED{
+    position: relative;
+    top: 35px;
+    left: 13%;
+    background-color: #0967f1;
+    border: none;
+}
+a.loginmodal{
+    position: absolute;
+    top: 63px;
+    left: 22px;
+}
+div.Login-form{
+    position: relative;
+    top: 18px;
+}
+span.loginModal{
+    position: relative;
+    color: gray;
+    font-size: larger;
+}
+i.fa-facebook:before {
+    content: "\f09a";
+    font-size: 32px;
+    margin-right: 24px;
+    margin-left: 28px;
+    color: darkblue;
+    cursor: pointer;
+}
+i.fab.fa-google-plus:before {
+    content: "\f0d5";
+    font-size: 29px;
+    color: red;
+    margin-left: -13px;
+    cursor: pointer;
+}
+p.small.fw-bold.mt-2.pt-1.mb-0{
+    position: relative;
+    top: 75px;
+    color: gray;
+}
+form.formregister{
+    margin-top: 25px;
+}
+span.res-acc{
+    color: red;
+    font-size: 23px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+button.btn.btn-primary {
+    position: sticky;
+    right: 214px;
+    font-size: smaller;
+}
+button.Googlelogin {
+    display: inline-flex !important;
+    align-items: center !important;
+    color: rgba(0, 0, 0, 0.54) !important;
+    box-shadow: rgb(0 0 0 / 24%) 0px 2px 2px 0px, rgb(0 0 0 / 24%) 0px 0px 1px 0px !important;
+    padding: 0px !important;
+    border-radius: 2px !important;
+    border: 1px solid transparent !important;
+   
+    font-family: Roboto, sans-serif !important;
+    background-color: none !important;
+    margin-top: 64px;
+    position: relative;
+    top: 25px;
+}
+hr.hrline{
+    position: relative;
+    top: 59px;
+}
+span.loginh{
+    position: relative;
+    font-size: larger;
+    right: -155px;
+    color: #ff0707;
+    top: -15px;
+    font-weight: bold;
+}
+span.glyphicon.glyphicon-user.dropbtn {
+    content: "\e008";
+    position: relative;
+    right: 395%;
+    color: gold;
+  
+}
+span.glyphicon{
+    right: -15px;
+    color: gold;
+}
+.dropbtn {
+
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  right: 280%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+

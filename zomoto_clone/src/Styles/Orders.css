@@ -1,0 +1,32 @@
+span.Amount{
+    font-weight: bold;
+    color: rgb(8, 0, 0);
+    
+}
+div.Amount{
+    float: right;
+    font-weight: bold;
+}
+h1.Orderhead{
+    font-size: 36px;
+    font-weight: bold;
+    color: #192f60;
+    margin-bottom: 50px;
+}
+span.ordermeal{
+    font-weight:bold;
+    color: rgb(8, 0, 0);
+}
+div.Adddetails{
+    position: relative;
+    left: 86%;
+    bottom: 229px;
+}
+div.meal1{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+img.mealimg{
+    margin-top: 20px;
+    border-radius: 30px;
+}

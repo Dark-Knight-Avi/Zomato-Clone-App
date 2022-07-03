@@ -1,0 +1,620 @@
+* {
+    font-family: poppins;
+
+
+}
+
+header {
+    background-color: #ce0505;
+    height: 80px;
+    width: 100%
+}
+.abc{
+    
+    border-bottom:0 solid white !important;
+}
+
+
+.menu {
+    width: 30px;
+    height: 5px;
+    background-color: #FFFFE0;
+    margin: 4px 0;
+    position: relative;
+    bottom: 40px;
+    left: 2px;
+    cursor: pointer;
+}
+.fa{
+    font-size:15px;
+    color: black;
+    margin-right: 5px;
+    
+}
+
+
+.login {
+    position: relative;
+    bottom: 32px;
+    left: 27px;
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+
+a:focus,
+a:hover {
+    color: #192f60;
+    text-decoration: none;
+}
+
+div.menu.collapsed {
+    display: none;
+}
+button.Detils.btn.btn-dark{
+    position: relative;
+    left: 150%;
+    top: -9em;
+    font-weight: 500;
+    width: 62%;
+    
+   
+}
+button.Detils.btn.btn-dark:hover{
+    background-color: #209b4f;
+    color: black;
+    font-weight:bold;
+}
+
+span.rating{
+    position: relative;
+    left: 153%;
+    top: -13em;
+    font-size: larger;
+}
+
+
+div.smallRating{
+    display: none;
+}
+
+
+
+
+
+.fheading {
+
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 2.53;
+    text-align: left;
+    color: #192f60;
+    width: 100%;
+}
+
+button.btn.btn-success{
+    position: sticky;
+    left: 83%;
+    border-radius:20px;
+    box-shadow: 1px 5px rgb(27, 28, 44);
+    font-weight:bold;
+    color:white;
+    background-color:#ce0505;
+    border: 1px white;
+ 
+}
+
+button.btn.btn-success:hover {background-color: #209b4f;color: #000000;font-weight: bold;box-shadow: 6px 3px rgb(27 28 44);
+
+}
+
+
+.filter {
+
+    width: 250px;
+    box-shadow: 0 10px 6px 0 #192f60;
+    
+    margin: 15px;
+
+
+
+}
+
+.filter1 {
+
+    width: 250px;
+    height: 650px;
+    box-shadow: 0 10px 6px 0 #192f60;
+    
+    margin: 15px;
+    
+
+
+}
+
+.ratingbox{
+    position: absolute;
+    left: 83%;
+    top:13em;
+    width: 150px;
+    height: 180px;
+    box-shadow: 0 10px 6px 0 rgb(8, 8, 8);
+    
+    margin: 15px;
+}
+.rate{
+    position: relative;
+    left: 30%;
+    top: 30px;
+}
+.rat{
+    font-weight: 600;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+.rightf {
+    width: 75%;
+    height: 280px;
+    box-shadow: 0 10px 6px 0 #192f60;
+    background-color: rgb(229, 240, 235);
+    margin-bottom: 30px;
+    margin-top: 14px;
+    position: relative;
+    top: 2px;
+    left: 15px;
+    color: #192f60;
+    transition: transform .5s;
+    border-radius: 7px;
+}
+.rightf:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 6px 0 #fd0404; 
+}
+.NoData{
+   color: red;
+   text-align: center;
+   position: relative;
+   top: 15%;
+   font-size: 40px;
+   
+   
+}
+
+.F {
+    font-weight: bold;
+    margin: 10px 20px;
+    padding-top: 10px;
+    color: #192f60;
+
+}
+
+.S {
+
+    margin: 10px 20px;
+    color: #192f60;
+}
+
+.select {
+    width: 208px;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    color: #8c96ab;
+    padding-left: 10px;
+}
+
+.check {
+    margin: 10px 20px;
+    color: #8c96ab;
+    margin-bottom: 20px;
+
+}
+.fdrop{
+width: 15em;
+margin: 20px;
+height: 3em;
+color: #636f88;
+
+cursor: pointer;
+padding-left: 2%;
+position: relative;
+
+
+}
+
+.Radio1 {
+    margin: 10px 20px;
+    color: #8c96ab
+}
+
+.C {
+    margin: 10px 20px;
+    color: #192f60;
+
+
+}
+
+.Co {
+    margin: 10px 20px;
+    color: #192f60;
+}
+
+.SO {
+    margin: 10px 20px;
+    font-weight: 600;
+    
+}
+
+.Image {
+    top: 25px;
+    position: absolute;
+    left: 35px;
+    border-radius: 23px;
+    width: 120px;
+    height: 120px;
+    transition: transform .5s;
+}
+.Image:hover{
+    transform: scale(1.4); 
+    
+}
+
+.Top {
+    left: 190px;
+    position: absolute;
+    top: 35px;
+}
+
+.B {
+    font-size: 30px;
+    font-weight: 600;
+    color: #192f60;
+}
+
+.Address {
+    color: #636f88;
+
+}
+
+.line {
+    width: 90%;
+    position: absolute;
+    margin: 31px 0 0;
+    border: solid 1px #dedfe5;
+    top: 140px;
+    left: 30px;
+}
+
+.cato {
+    color: #636f88;
+    position: absolute;
+    top: 200px;
+    left: 35px;
+}
+
+.iteamf {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: #192f60;
+    font-weight: 600;
+
+}
+
+
+
+.leftf {
+    border: 2px solid #000000;
+    margin: 5px;
+    padding: 8.2px 13.5px 9.5px 14.3px;
+    opacity: 0.4;
+    border-radius: 7px;
+    text-decoration: none;
+    color:  black;
+
+
+
+}
+
+.pagination {
+    display: flex;
+    margin-left: 44%;
+ 
+}
+
+.page-link {
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: black;
+    background-color: #666;
+      
+}
+.page-link:hover{
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: black;
+    background-color: #666;
+}
+.page-item {
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #000000;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 7px;
+    color: black;
+    
+}
+.page-item:hover{
+    background-color: #666;
+    color: white;
+    border: none;
+}
+.Pagno{
+    float: right;
+    margin-right: -98%;
+}
+
+.leftf:hover {
+    background-color: rgb(14, 8, 39);
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+
+    display: none;
+}
+
+div.container {
+    margin-left: 7%;
+}
+
+label {
+    
+    margin-left: 7px;
+}
+
+@media screen and (max-width:998px) and (max-width:900px) and (min-width: 360px) {
+
+
+    .filter {
+        display: block;
+
+    }
+    a.btn.btn-success{
+        
+        font-size: 10px;
+        left: 76%;
+        padding: 7px;
+        width: 105px;
+        margin-top: 16px;
+        margin-bottom: 22px;
+
+         
+     
+    }
+    .fa{
+        font-size: 12px;;
+        right:85px;
+        position: absolute;
+        
+    }
+
+    .rightf {
+        width: 90%;
+        height: 180px;
+        box-shadow: 0 10px 6px 0 #192f60;
+        background-color: #ffffff;
+
+        margin-bottom: 15px;
+
+        position: relative;
+        top: 2px;
+        right: 5px;
+        color: #192f60;
+    }
+   
+
+    .B {
+        font-size: 15px;
+        font-weight: 600;
+        color: #192f60;
+    }
+
+    .Address {
+        font-size: 10px
+    }
+
+    .Image {
+        top: 12.5px;
+        position: absolute;
+        left: 17px;
+        border-radius: 11px;
+        width: 60px;
+        height: 60px;
+        transition: transform .5s;
+    }
+
+    .Top {
+        left: 95px;
+        position: absolute;
+        top: 17.5px;
+    }
+
+    .line {
+        width: 90%;
+        position: absolute;
+        margin: 31px 0 0;
+        border: solid 1px #dedfe5;
+        top: 70px;
+        left: 15px;
+    }
+
+    .cato {
+        color: #636f88;
+        position: absolute;
+        top: 120px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+    .iteamf {
+        position: absolute;
+        top: 120px;
+        left: 130px;
+        color: #192f60;
+        font-size: 10px;
+        font-weight: 600;
+
+    }
+
+    .stro {
+        font-size: 10px;
+    }
+
+    .filter1 {
+
+        display: none;
+
+
+    }
+
+    div.menu.collapsed {
+        display: block;
+    }
+
+    button.Detils.btn.btn-dark{
+        padding: 5px;
+        
+        font-size: 10px;
+    }
+.abc{
+    margin-left: 7px;
+    border-bottom:0 solid white !important;
+}
+
+
+    .btn-group-lg > .btn,
+    .btn-lg {
+
+        display: block;
+        color: #192f60;
+        background-color: #ffffff;
+        text-align: left;
+        margin-top: 10px;
+        box-shadow: 0 3px 6px 0 #192f60;
+        border: solid 1px #e0e0e0;
+        font-weight: 600;
+        font-size: 16px;
+        border-radius: 0px;
+        width: 83%;
+        margin-left: 30px;
+
+
+    }
+
+    .btn-group-lg > .btn,
+    .btn-lg:hover {
+        background-color: #ffffff;
+        color: #192f60;
+
+    }
+
+    .btn-info.focus,
+    .btn-info:focus {
+        color: #fff;
+        background-color: #ffffff;
+        border-color: #ffffff;
+        color: #192f60;
+
+    }
+
+    .fheading {
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 2.53;
+        text-align: left;
+        color: #192f60;
+        margin-left: 17px;
+
+    }
+
+    .filter1 {
+
+        display: none;
+
+
+    }
+   
+    .ratingbox{
+        display: none;
+    }
+    div.smallRating{
+    position: absolute;
+    bottom:30em;
+    left: 49px;
+    display: block;
+    }
+    .filter {
+
+        width: 83%;
+        left: 3%;
+
+
+    }
+
+    div.menu.collapsed {
+        display: block;
+
+    }
+
+    .signin {
+        border: 1px solid white;
+        padding: 5px;
+    }
+
+   
+
+
+    .appbtn {
+        border: 1.4px solid #ce0505;
+        color: #ce0505;
+        text-align: center;
+        padding: 5px;
+        border-radius: 4px;
+        font-weight: 600;
+        width: 90%;
+        margin-left: 5%;
+        margin: inherit;
+        cursor: pointer;
+    }
+
+    .fa {
+       display: none;
+        
+    }
+
+    div.container {
+        margin-left: 3%;
+    }
+    button.btn.btn-success{
+        left: 66%;
+    }
+    .pagination {
+        display: flex;
+        margin-left: 20%;
+     
+    }
+}
